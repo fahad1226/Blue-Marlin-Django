@@ -67,3 +67,41 @@ def store_contact(request):
         return render(request, 'contact.html')
 
 
+
+def venus(request):
+    return render(request, 'packages/venus.html')
+
+
+def photographer(request):
+    return render(request, 'packages/photographers.html')
+
+def makeup_artists(request):
+    return render(request, 'packages/makeup_artists.html')
+
+def mehendi_artists(request):
+    return render(request, 'packages/mehendi_artists.html')
+
+def bridal_wear(request):
+    return render(request, 'packages/bridal_wear.html')
+
+def groom_wear(request):
+    return render(request, 'packages/groom_wear.html')
+
+def kazi(request):
+    return render(request, 'packages/kazi_office.html')
+
+
+def decorators(request):
+    return render(request, 'packages/decorators.html')
+
+def caterers(request):
+    return render(request, 'packages/caterers.html')
+
+def dj_and_live(request):
+    return render(request, 'packages/dj_and_live.html')
+
+def invite(request):
+    return render(request, 'packages/invite.html')
+
+def other_services(request):
+    return render(request, 'packages/other_services.html')
