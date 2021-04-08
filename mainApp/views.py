@@ -114,3 +114,33 @@ def chittagong_services(request):
 
 def rajshahi_services(request):
     return render(request, 'packages/rajshahi_services.html')
+
+def black_car(request):
+    return render(request, 'packages/black_car.html')
+
+def white_car(request):
+    return render(request, 'packages/white_car.html')
+
+def elegant_coctail_cresses(request):
+    return render(request, 'packages/elegant_coctail_cresses.html')
+
+def bridal_saree(request):
+    return render(request, 'packages/bridal_saree.html')
+
+def bridal_lahenga(request):
+    return render(request, 'packages/bridal_lahenga.html')
+
+def formal_dresses(request):
+    return render(request, 'packages/formal_dresses.html')
+
+def groom_panjabi(request):
+    return render(request, 'packages/panjabi.html')
+
+def photographer(request):
+    return render(request, 'packages/photographer.html')
+
+def cinemetography(request):
+    return render(request, 'packages/cinemetography.html')
+
+def projector(request):
+    return render(request, 'packages/projector.html')

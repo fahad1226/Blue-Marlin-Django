@@ -26,6 +26,19 @@ urlpatterns = [
     path('packages/invite-card/', views.invite, name='invite'),
     path('packages/other-services/', views.other_services, name='other_services'),
     path('packages/other-services/dhaka/', views.dhaka_services, name='dhaka_service'),
+    # sub routes of dhaka packages
+    
+    path('packages/other-services/dhaka/black_car', views.black_car, name='black_car'),
+    path('packages/other-services/dhaka/white_car', views.white_car, name='white_car'),
+    path('packages/other-services/dhaka/elegant_coctail_cresses', views.elegant_coctail_cresses, name='elegant_coctail_cresses'),
+    path('packages/other-services/dhaka/bridal-saree', views.bridal_saree, name='bridal_saree'),
+    path('packages/other-services/dhaka/bridal-lahenga', views.bridal_lahenga, name='bridal_lahenga'),
+    path('packages/other-services/dhaka/formal-dresses', views.formal_dresses, name='formal_dresses'),
+    path('packages/other-services/dhaka/groom-panjabi', views.groom_panjabi, name='groom_panjabi'),
+    path('packages/other-services/dhaka/photographer', views.photographer, name='photographer'),
+    path('packages/other-services/dhaka/cinemetography', views.cinemetography, name='cinemetography'),
+    path('packages/other-services/dhaka/projector', views.projector, name='projector'),
+    # chittagong sub routes
     path('packages/other-services/chittagong/', views.chittagong_services, name='chittagong_service'),
     path('packages/other-services/rajshahi/', views.rajshahi_services, name='rajshahi_service'),
 ]
