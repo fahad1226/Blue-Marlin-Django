@@ -105,3 +105,12 @@ def invite(request):
 
 def other_services(request):
     return render(request, 'packages/other_services.html')
+
+def dhaka_services(request):
+    return render(request, 'packages/dhaka_services.html')
+
+def chittagong_services(request):
+    return render(request, 'packages/chittagong_services.html')
+
+def rajshahi_services(request):
+    return render(request, 'packages/rajshahi_services.html')

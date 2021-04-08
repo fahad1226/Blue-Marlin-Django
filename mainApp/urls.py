@@ -25,4 +25,7 @@ urlpatterns = [
     path('packages/dj-and-live/', views.dj_and_live, name='dj_and_live'),
     path('packages/invite-card/', views.invite, name='invite'),
     path('packages/other-services/', views.other_services, name='other_services'),
+    path('packages/other-services/dhaka/', views.dhaka_services, name='dhaka_service'),
+    path('packages/other-services/chittagong/', views.chittagong_services, name='chittagong_service'),
+    path('packages/other-services/rajshahi/', views.rajshahi_services, name='rajshahi_service'),
 ]
