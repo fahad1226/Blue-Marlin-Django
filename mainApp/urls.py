@@ -40,5 +40,29 @@ urlpatterns = [
     path('packages/other-services/dhaka/projector', views.projector, name='projector'),
     # chittagong sub routes
     path('packages/other-services/chittagong/', views.chittagong_services, name='chittagong_service'),
+
+    path('packages/other-services/chittagong/black_car', views.black_car, name='black_car'),
+    path('packages/other-services/chittagong/white_car', views.white_car, name='white_car'),
+    path('packages/other-services/chittagong/elegant_coctail_cresses', views.elegant_coctail_cresses, name='elegant_coctail_cresses'),
+    path('packages/other-services/chittagong/bridal-saree', views.bridal_saree, name='bridal_saree'),
+    path('packages/other-services/chittagong/bridal-lahenga', views.bridal_lahenga, name='bridal_lahenga'),
+    path('packages/other-services/chittagong/formal-dresses', views.formal_dresses, name='formal_dresses'),
+    path('packages/other-services/chittagong/groom-panjabi', views.groom_panjabi, name='groom_panjabi'),
+    path('packages/other-services/chittagong/photographer', views.photographer, name='photographer'),
+    path('packages/other-services/chittagong/cinemetography', views.cinemetography, name='cinemetography'),
+    path('packages/other-services/chittagong/projector', views.projector, name='projector'),
+
+
     path('packages/other-services/rajshahi/', views.rajshahi_services, name='rajshahi_service'),
+    # rajshahi sub routes
+    path('packages/other-services/rajshahi/black_car', views.black_car, name='black_car'),
+    path('packages/other-services/rajshahi/white_car', views.white_car, name='white_car'),
+    path('packages/other-services/rajshahi/elegant_coctail_cresses', views.elegant_coctail_cresses, name='elegant_coctail_cresses'),
+    path('packages/other-services/rajshahi/bridal-saree', views.bridal_saree, name='bridal_saree'),
+    path('packages/other-services/rajshahi/bridal-lahenga', views.bridal_lahenga, name='bridal_lahenga'),
+    path('packages/other-services/rajshahi/formal-dresses', views.formal_dresses, name='formal_dresses'),
+    path('packages/other-services/rajshahi/groom-panjabi', views.groom_panjabi, name='groom_panjabi'),
+    path('packages/other-services/rajshahi/photographer', views.photographer, name='photographer'),
+    path('packages/other-services/rajshahi/cinemetography', views.cinemetography, name='cinemetography'),
+    path('packages/other-services/rajshahi/projector', views.projector, name='projector'),
 ]
